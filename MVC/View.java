@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class View {
 
-    public String newView(String runway) {
+    public String newView(String runway, int moves) {
         clearScreen();
-        System.out.println(runway + "\n Type \"left\"       Type \"right\"");
+        System.out.println(runway + "\n" + moves + " moves left. Type \"left\" or \"right\"");
 
         Scanner userInput = new Scanner(System.in);
         String choice;

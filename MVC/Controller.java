@@ -9,8 +9,8 @@ public class Controller {
         RunwayModel.initialize();
         View view = new View();
 
-        for (int i = 0; i < 10; i++) {
-            String movement = view.newView(currentRunway());
+        for (int i = 10; i > 0; i--) {
+            String movement = view.newView(currentRunway(), i);
 
             switch (movement) {
                 case "left":
