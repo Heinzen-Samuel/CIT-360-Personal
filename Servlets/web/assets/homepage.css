@@ -1,0 +1,33 @@
+body {
+  background-color: #96ddfe;
+}
+
+.jumbotron {
+  background: url('img/jumbo.png') no-repeat center center;
+  background-position: relative;
+  background-size: contain;
+  margin-bottom: 0;
+}
+
+.container {
+  margin: 0px auto auto;
+  width: 50%;
+
+}
+
+.rcorners1 {
+  border-radius: 25px;
+  background-color: #133f63;
+  margin: auto;
+  color: white;
+  padding: 20px;
+  width: 500px;
+  height: 150px;
+}
+
+.answer {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
